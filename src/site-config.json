@@ -1,0 +1,441 @@
+{
+  "business": {
+    "name": "Apex Welding",
+    "phone": "555-wel-rq13",
+    "category": "welding",
+    "city": "Detroit",
+    "state": "MI"
+  },
+  "design": {
+    "preset": {
+      "id": "welding-red-charge",
+      "categoryGroup": "welding",
+      "name": "Red Charge",
+      "recipeFile": "welding/red-charge.astro",
+      "colors": {
+        "primary": "#374151",
+        "primaryDark": "#1F2937",
+        "primaryLight": "#cdd0d4",
+        "secondary": "#323b49",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#374151",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "welding/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Detroit's Welding Experts",
+      "heroSubline": "Precision welding for Michigan's toughest conditions. Serving Detroit and surrounding areas with durable solutions built to last.",
+      "aboutTitle": "Built on Detroit Grit",
+      "aboutText": [
+        "Founded in 2012, Apex Welding started as a two-man operation repairing industrial equipment in Detroit's auto plants. Today, we're a 20-person crew tackling everything from historic home restorations to commercial fabrication.",
+        "We weld like Detroiters work - with stubborn attention to detail. Every joint gets our full focus, whether it's reinforcing a Corktown loft's steel beams or repairing salt-damaged truck frames.",
+        "When Michigan winters wreck metal, we fix it right. From donating skills to local schools to training the next generation of welders, we're invested in this community's strength."
+      ],
+      "valueProps": [
+        {
+          "title": "Weather-Tested",
+          "description": "Our welds withstand Detroit's freeze-thaw cycles and corrosive road salt year after year."
+        },
+        {
+          "title": "Period-Appropriate",
+          "description": "We match techniques to your structure's era, whether it's a 1920s bungalow or modern loft."
+        },
+        {
+          "title": "No Shortcuts",
+          "description": "Every project gets full penetration welds - we don't do cosmetic fixes that fail."
+        },
+        {
+          "title": "Same-Day Quotes",
+          "description": "Get a firm price when we assess your job, not days later."
+        }
+      ],
+      "ctaHeadline": "Need Metal That Lasts?",
+      "ctaSubline": "Call 555-WEL-RQ13 today for welding that stands up to Michigan winters."
+    },
+    "services": [
+      {
+        "slug": "structural-steel-repair",
+        "name": "Structural Steel Repair",
+        "shortDescription": "Restore compromised structural steel in Detroit's aging buildings.",
+        "description": "Decades of freeze-thaw cycles and road salt corrosion take their toll on Detroit's structural steel. We specialize in repairing load-bearing beams, columns, and connections in mid-century factories, loft conversions, and commercial buildings.\n\nOur process starts with ultrasonic testing to identify hidden corrosion. We then remove compromised sections with precision cutting before welding in new ASTM A36 steel plate reinforcements. All repairs meet Michigan building code requirements for historic structures.\n\nUnlike patch jobs that fail within seasons, our full-penetration welds integrate new steel with existing members for decades of service. We've reinforced everything from Palmer Woods mansion supports to Midtown loft floor systems.",
+        "process": [
+          "Step 1: Non-destructive testing to map corrosion and stress points",
+          "Step 2: Engineering-approved removal plan for compromised sections",
+          "Step 3: Custom fabrication of reinforcement plates on-site",
+          "Step 4: High-strength welding with post-weld heat treatment when required"
+        ],
+        "benefits": [
+          "Prevents catastrophic structural failures",
+          "Extends building lifespan 20+ years",
+          "Maintains historic integrity",
+          "Meets strict Michigan seismic codes"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent heat distortion in thin steel?",
+            "answer": "We use pulsed MIG welding with precise heat control, often working in 2-inch sections with cooling periods. For critical applications, we employ specialized backstep techniques."
+          },
+          {
+            "question": "Can you match original weld appearances?",
+            "answer": "Yes. Our team studies period-appropriate techniques - from 1940s stick welds to modern flux-core - to maintain visual continuity in historic properties."
+          }
+        ]
+      },
+      {
+        "slug": "residential-metal-fabrication",
+        "name": "Residential Metal Fabrication",
+        "shortDescription": "Custom metalwork for Detroit-area homes.",
+        "description": "From ornamental ironwork to functional solutions, we fabricate metal components that complement Southeast Michigan's housing stock. Our shop handles everything from wrought iron gates for Indian Village estates to steel lintel replacements for brick bungalows.\n\nWe understand how Michigan's climate affects residential metal. That's why we use thicker 11-gauge steel for exterior railings instead of flimsy 14-gauge, and why all our exterior welds get zinc-rich primers before painting. For historic districts, we replicate original profiles using archival photos.\n\nRecent projects include custom steel basement window wells that resist frost heave, copper-clad bay window caps for Colonial revivals, and reinforced garage headers for heavy snow loads in Rochester Hills.",
+        "process": [
+          "Step 1: On-site measurements and material selection",
+          "Step 2: CAD drawings for client approval",
+          "Step3: Precision cutting and forming in our Detroit shop",
+          "Step4: Installation with weatherproof sealing"
+        ],
+        "benefits": [
+          "Materials chosen for Michigan durability",
+          "Period-appropriate designs",
+          "No off-the-shelf solutions",
+          "Lifetime craftsmanship guarantee"
+        ],
+        "faq": [
+          {
+            "question": "Do you work with historic commissions?",
+            "answer": "Yes. We've completed approved projects in Indian Village and Rosedale Park historic districts, following all guidelines for visible modifications."
+          },
+          {
+            "question": "How long do exterior steel elements last?",
+            "answer": "With proper coating systems, our steel fabrications typically last 30+ years in Detroit's climate - we use industrial-grade finishes, not residential paint."
+          }
+        ]
+      },
+      {
+        "slug": "automotive-welding",
+        "name": "Automotive Welding",
+        "shortDescription": "Expert repairs for Michigan's salt-ravaged vehicles.",
+        "description": "Road salt eats Michigan cars alive. We specialize in structural repairs that go beyond quick patches - properly reinforcing frame rails, suspension mounts, and unibody sections so your vehicle stays safe.\n\nOur team welds everything from classic car restoration projects to daily drivers with rusted-out rocker panels. We only use automotive-grade steels and proper penetration techniques, never relying on bondo or temporary fixes. For vintage vehicles, we maintain original factory weld patterns.\n\nCommon repairs include full cab corner replacements on trucks, torque box reinforcements for SUVs, and proper floorpan repairs that don't compromise crash safety. We serve many local fleets and municipal vehicles that take brutal winter punishment.",
+        "process": [
+          "Step 1: Media blasting to reveal full damage extent",
+          "Step 2: Precision cutting of compromised metal",
+          "Step 3: Fabrication of replacement panels",
+          "Step 4: GMAW welding with corrosion-resistant primers"
+        ],
+        "benefits": [
+          "Actual metal replacement, not cover-ups",
+          "Maintains vehicle structural integrity",
+          "Proper prep prevents recurring rust",
+          "Factory-correct methods for classics"
+        ],
+        "faq": [
+          {
+            "question": "Can you match factory spot welds?",
+            "answer": "Yes. We use specialized resistance welders to replicate OEM appearance on restoration projects, with proper spacing and heat settings."
+          },
+          {
+            "question": "How do you prevent future rust?",
+            "answer": "All repairs get zinc-rich weld-through primer, cavity wax injections, and undercoating - the same process we use on snowplows."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-welding",
+        "name": "Commercial Welding",
+        "shortDescription": "Industrial-strength solutions for Metro Detroit businesses.",
+        "description": "Keeping Michigan businesses running requires metalwork that can take punishment. We fabricate and repair everything from loading dock bumpers to conveyor systems for Detroit-area manufacturers, warehouses, and retailers.\n\nOur commercial clients rely on us for emergency repairs when equipment fails - we've field-welded broken forklift masts at 2AM and reconstructed salt-damaged dock levelers before morning shifts. Preventative work includes reinforcing pallet rack uprights and building custom steel machine guards.\n\nWe understand the demands of local industries. That's why our shop welds use higher-grade materials than typical construction work, with proper preheat for Michigan's cold winters. All structural work includes engineer-stamped calculations.",
+        "process": [
+          "Step 1: Immediate response for emergency repairs",
+          "Step 2: Engineering analysis for structural modifications",
+          "Step 3: Fabrication with industrial-grade materials",
+          "Step 4: Installation minimizing business disruption"
+        ],
+        "benefits": [
+          "24/7 emergency service",
+          "Heavy-duty materials",
+          "OSHA-compliant solutions",
+          "Downtime-minimizing techniques"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle food-grade stainless work?",
+            "answer": "Yes. Our certified welders perform sanitary stainless welding for commercial kitchens and food processors, with proper purging and finishing."
+          },
+          {
+            "question": "Can you reinforce existing steel structures?",
+            "answer": "Absolutely. We've added capacity to warehouse mezzanines, dock bumpers, and overhead crane systems throughout Wayne County."
+          }
+        ]
+      },
+      {
+        "slug": "historic-metal-restoration",
+        "name": "Historic Metal Restoration",
+        "shortDescription": "Preserving Detroit's architectural metalwork.",
+        "description": "Detroit's historic buildings contain irreplaceable metal craftsmanship. We specialize in conserving and replicating original ornamental ironwork, structural elements, and decorative features using period-appropriate techniques.\n\nOur restoration projects range from repairing Arts & Crafts era bronze door hardware in Palmer Woods to reconstructing missing wrought iron balcony railings on Midtown apartments. We document original work through metallurgical analysis before beginning repairs.\n\nFor replacement elements, we match original alloys and fabrication methods - hand-forging when required, using correct joint details, and duplicating aging patterns. All work meets National Park Service standards for historic preservation.",
+        "process": [
+          "Step 1: Historic documentation and material sampling",
+          "Step 2: Conservation assessment of existing elements",
+          "Step 3: Custom fabrication matching original methods",
+          "Step 4: Installation with reversible preservation techniques"
+        ],
+        "benefits": [
+          "Maintains historic authenticity",
+          "Specialized in Detroit architecture",
+          "Materials match original composition",
+          "Meets preservation grant requirements"
+        ],
+        "faq": [
+          {
+            "question": "Can you recreate missing historic elements?",
+            "answer": "Yes. Using archival photos and surviving examples, we've reconstructed everything from 1920s elevator grilles to Victorian fence finials for Detroit landmarks."
+          },
+          {
+            "question": "Do you work with preservation architects?",
+            "answer": "Regularly. We're approved vendors for several firms specializing in Detroit historic renovations and adaptive reuse projects."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-welding",
+        "name": "Emergency Welding",
+        "shortDescription": "24/7 urgent repairs for Metro Detroit.",
+        "description": "When metal fails at the worst time, we respond. Our emergency team handles urgent structural repairs throughout Wayne and Oakland Counties, day or night.\n\nWe've stabilized collapsed carport roofs after heavy snow loads, temporarily braced broken water main valves, and field-repaired snowplow blades during storms. Our mobile welding rig carries equipment for on-site stainless, aluminum, and steel repairs in all conditions.\n\nEmergency services include immediate stabilization of dangerous situations, followed by permanent repairs once safe. We coordinate with local building departments when required and provide documentation for insurance claims.",
+        "process": [
+          "Step 1: Immediate safety assessment",
+          "Step 2: Temporary stabilization if needed",
+          "Step 3: Permanent repair planning",
+          "Step 4: Documentation for authorities/insurance"
+        ],
+        "benefits": [
+          "Detroit-area rapid response",
+          "All-weather capability",
+          "Prevent further damage",
+          "Insurance documentation"
+        ],
+        "faq": [
+          {
+            "question": "What's your average response time?",
+            "answer": "Within 90 minutes for life-safety situations in our core service area, often faster for municipal clients."
+          },
+          {
+            "question": "Can you weld in the rain or snow?",
+            "answer": "Yes. Our rig has weather enclosures and we use specialized procedures for wet conditions - we don't postpone critical repairs."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Structural Steel Repair",
+        "text": "Apex saved our Corktown loft building when an inspection revealed severe beam corrosion. They engineered a solution that preserved the historic character while bringing everything up to code. Two winters later, their welds are holding perfect.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Residential Metal Fabrication",
+        "text": "Our Indian Village home needed period-appropriate steel casement window frames replicated. Apex studied original 1927 examples, then fabricated perfect matches down to the original weld bead pattern. The preservation commission approved them without changes.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Rob S.",
+        "rating": 5,
+        "service": "Automotive Welding",
+        "text": "After three shops told me my '68 Mustang's frame rails were too far gone, Apex methodically replaced 18 inches of structural steel using correct resistance spot welds. The car drives straight and the repair is invisible to judges at shows.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Lena P.",
+        "rating": 5,
+        "service": "Commercial Welding",
+        "text": "When our bakery's conveyor oven frame cracked during peak holiday production, Apex had a crew onsite in 45 minutes. They reinforced the entire structure overnight with food-grade stainless - we only lost 4 hours of baking time.",
+        "date": "2024-12-18"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Emergency Welding",
+        "text": "Christmas Eve snow collapse took out our carport. Apex arrived at 10PM with temporary supports, then returned Dec 26 with a permanent solution using heavier steel. Their quick action saved our vehicles from further damage.",
+        "date": "2025-01-05"
+      },
+      {
+        "name": "Theresa M.",
+        "rating": 5,
+        "service": "Historic Metal Restoration",
+        "text": "Restoring our 1915 Arts & Crafts building's bronze storefront was daunting until we found Apex. Their metallurgist identified the original alloy, and their artisans recast missing elements using century-old techniques. The results are museum-quality.",
+        "date": "2024-10-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Detroit Welding Services | Structural Steel Repair Experts",
+        "description": "Professional welding services in Detroit, MI. Structural repairs, historic restoration, and custom fabrication built for Michigan's harsh climate."
+      },
+      "about": {
+        "title": "About Apex Welding | Detroit Metalwork Specialists",
+        "description": "Learn about our Detroit welding company's history, team, and commitment to quality metalwork in Southeast Michigan."
+      },
+      "services": {
+        "title": "Welding Services in Detroit | Residential & Commercial",
+        "description": "Complete welding solutions for Detroit homes and businesses. Structural repairs, fabrication, and restoration services."
+      },
+      "contact": {
+        "title": "Contact Detroit Welding Experts | Apex Welding",
+        "description": "Get in touch with Detroit's trusted welding company for quotes and emergency services in Southeast Michigan."
+      },
+      "reviews": {
+        "title": "Apex Welding Reviews | Detroit Client Feedback",
+        "description": "See what Detroit-area clients say about our welding services, from historic restoration to emergency repairs."
+      },
+      "service-areas": {
+        "title": "Welding Service Areas | Detroit Metro Cities",
+        "description": "Apex Welding serves Ann Arbor, Troy, Royal Oak, Rochester Hills and surrounding Michigan communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Detroit",
+        "slug": "detroit-mi",
+        "state": "MI",
+        "content": "Proudly serving Detroit and surrounding communities.",
+        "localContext": "Local welding services.",
+        "nearbyAreas": [
+          "Ann Arbor",
+          "Troy",
+          "Royal Oak",
+          "Rochester Hills"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "structural-steel-repair": "/images/service-structural-steel-repair.webp",
+      "residential-metal-fabrication": "/images/service-residential-metal-fabrication.webp",
+      "automotive-welding": "/images/service-automotive-welding.webp",
+      "commercial-welding": "/images/service-commercial-welding.webp",
+      "historic-metal-restoration": "/images/service-historic-metal-restoration.webp",
+      "emergency-welding": "/images/service-emergency-welding.webp"
+    },
+    "servicesResponsive": {
+      "structural-steel-repair": {
+        "src": "/images/service-structural-steel-repair.webp",
+        "srcset": "/images/service-structural-steel-repair-400w.webp 400w, /images/service-structural-steel-repair-800w.webp 800w, /images/service-structural-steel-repair-1200w.webp 1200w, /images/service-structural-steel-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "residential-metal-fabrication": {
+        "src": "/images/service-residential-metal-fabrication.webp",
+        "srcset": "/images/service-residential-metal-fabrication-400w.webp 400w, /images/service-residential-metal-fabrication-800w.webp 800w, /images/service-residential-metal-fabrication-1200w.webp 1200w, /images/service-residential-metal-fabrication.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "automotive-welding": {
+        "src": "/images/service-automotive-welding.webp",
+        "srcset": "/images/service-automotive-welding-400w.webp 400w, /images/service-automotive-welding-800w.webp 800w, /images/service-automotive-welding-1200w.webp 1200w, /images/service-automotive-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-welding": {
+        "src": "/images/service-commercial-welding.webp",
+        "srcset": "/images/service-commercial-welding-400w.webp 400w, /images/service-commercial-welding-800w.webp 800w, /images/service-commercial-welding-1200w.webp 1200w, /images/service-commercial-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-metal-restoration": {
+        "src": "/images/service-historic-metal-restoration.webp",
+        "srcset": "/images/service-historic-metal-restoration-400w.webp 400w, /images/service-historic-metal-restoration-800w.webp 800w, /images/service-historic-metal-restoration-1200w.webp 1200w, /images/service-historic-metal-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-welding": {
+        "src": "/images/service-emergency-welding.webp",
+        "srcset": "/images/service-emergency-welding-400w.webp 400w, /images/service-emergency-welding-800w.webp 800w, /images/service-emergency-welding-1200w.webp 1200w, /images/service-emergency-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
